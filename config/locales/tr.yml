@@ -69,7 +69,7 @@ tr:
       recording_visibility:
         info: Yeni kayıtlar için varsayılan kayıt görünürlüğünü ayarlama
         title: Varsayılan Görünürlüğü Kaydetme
-        warning: Bu ayar yalnızca açık olmayan sınıflara uygulanacak
+        warning: Bu ayar yalnızca açık olmayan sınıflara uygulanacaktır
       registration:
         info: Kullanıcıların web sitesine kayıt olma şeklini değiştirme
         title: Kayıt Yöntemi
@@ -131,13 +131,13 @@ tr:
     room_configuration:
       title: Sınıf Yapılandırması
       mute:
-        info: BigBlueButton görüşmesine katılan kullanıcıların sesini otomatik olarak kapatır
+        info: Magistum Live canlı dersine katılan kullanıcıların sesini otomatik olarak kapatır
       require_moderator:
-        info: BigBlueButton görüşmesinin sorumlusuna bir kullanıcının katılmak istediğini bildirir. Kullanıcı kabul edilirse görüşmeye katılabilir.
+        info: Magistum Live canlı dersinin sorumlusuna bir kullanıcının katılmak istediğini bildirir. Kullanıcı kabul edilirse görüşmeye katılabilir.
       allow_any:
         info: İsteyen her kullanıcının istediği zaman görüşmeye katılabilmesini sağlar. Varsayılan olarak yalnız oda sahibi görüşmeyi başlatabilir.
       all_moderator:
-        info: BigBlueButton görüşmesine katılan tüm kullanıcılara sorumlu yetkileri verir.
+        info: Magistum Live canlı dersine katılan tüm kullanıcılara sorumlu yetkileri verir.
       options:
         disabled: Etkin Değil
         enabled: Her Zaman Etkin
@@ -210,9 +210,9 @@ tr:
       contact_admin: "Yönetici değilseniz, lütfen bir tane ile iletişime geçin."
       continue: 1.0 sürümü kullanmaya devam etmek istiyorum.
       notice: >
-        Sistem bir veritabanı taşıma hatasıyla karşılaştı.<br>Bunun nedeni MagistumLive 2.0 sürümünü kullanmadığınızdan olabilir. 2.0 sürümüne nasıl yükselteceğimi göster!
+        Sistem bir veritabanı taşıma hatasıyla karşılaştı.<br>Bunun nedeni Magistum Live 2.0 sürümünü kullanmadığınızdan olabilir. 2.0 sürümüne nasıl yükselteceğimi göster!
       upgrade: "2,0 Sürümüne nasıl yükselteceğimi göster!"
-      version: "MagistumLive'ın yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
+      version: "Magistum Live'ın yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
     messages:
       blank: Boş bırakılamaz
       too_short: Çok kısa
@@ -245,13 +245,13 @@ tr:
     designs: Özel Tasarımlar
     authentication: Kullanıcı Kimlik Doğrulaması
   footer:
-    powered_by: "MagistumLive tarafından desteklenmektedir."
+    powered_by: "Magistum Live tarafından desteklenmektedir."
   forgot_password:
     subtitle: Şifremi Unuttum
     email: E-Posta
     submit: Konu
   go_back: Geri Git
-  greenlight: MagistumLive
+  greenlight: Magistum Live
   header:
     all_recordings: Tüm Kayıtlar
     dropdown:
@@ -279,7 +279,7 @@ tr:
     welcome: Magistum Live’a Hoş Geldiniz.
     video: Sistemi kullanma ile ilgili eğitici videomuzu izleyebilirsiniz.
     upgrade: Bana 2.0 sürümüne nasıl yükseltileceğini göster!
-    version: "MagistumLive Sisteminin yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
+    version: "Magistum Live Sisteminin yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
   language_default: Varsayılan (programın orjinal dili)
   ldap_error: LDAP sunucusuna bağlanılamıyor. Lütfen env dosyasındaki LDAP yapılandırmanızı kontrol edin ve sunucunuzun çalıştığından emin olun.
   login: Oturum Aç
@@ -291,10 +291,10 @@ tr:
         signin: Kişisel sınıflarınıza erişmek için aşağıdaki butonu tıklayın ve oturum açın.
         signin_link: Oturum Aç
         signup:
-          info: MagistumLive'ı kullanmak için yeni bir kullanıcı kaydoldu.
-          more-info: Bu kullanıcının MagistumLive'a erişmesine izin vermek için hesabını kuruluş ayarlarında onaylamanız gerekir.
+          info: Magistum Live'ı kullanmak için yeni bir kullanıcı kaydoldu.
+          more-info: Bu kullanıcının Magistum Live'a erişmesine izin vermek için hesabını kuruluş ayarlarında onaylamanız gerekir.
           admins_link: Sistem Sayfasını ziyaret edin
-          subject: Yeni MagistumLive Kullanıcı Kaydı
+          subject: Yeni Magistum Live Kullanıcı Kaydı
           username: "Kullanıcı %{name} adıyla ve %{email} e-postası ile kaydoldu."
         subject: Hesap Onaylandı
         username: "Kullanıcı adınız %{email}."
@@ -308,11 +308,11 @@ tr:
         signup_info: E-postanızı kullanarak kaydolmak için aşağıdaki butona tıklayın ve adımları izleyin.
         signup_link: Kayıt Ol
         signup:
-          info: Davet edilen bir kullanıcı MagistumLive'ı kullanmak için kaydoldu.
+          info: Davet edilen bir kullanıcı Magistum Live'ı kullanmak için kaydoldu.
           admins_link: Sistem sayfasını ziyaret edin
-          subject: Yeni MagistumLive Kullanıcı Kaydı
+          subject: Yeni Magistum Live Kullanıcı Kaydı
           username: "Kullanıcı %{name} adıyla ve %{email} e-postası ile kaydoldu."
-        subject: Sanal Okul'a davet
+        subject: Magistum Live'a davet
         username: "Kullanıcı adınız %{email}."
       password_reset:
         title: 'Şifre sıfırlama'
@@ -363,9 +363,9 @@ tr:
     delete_room:
       confirm: "%{room} dosyasını silmek istediğinizden emin misiniz?"
       delete: "Eminim, bu sınıfı sil."
-      keep: "İkinci düşüncede, ben saklayacağım."
+      keep: "Silinmesin, saklayacağım."
       warning: "Bu sınıfı <b> kurtaramayacaksınız</b> "
-      recording_warning: "veya %{recordings_num} ile  kayıtlarından biri birleştirildi."
+      recording_warning: "veya %{recordings_num} ile kayıtlarından biri birleştirildi."
     invite_user:
       email_placeholder: Kullanıcıların e-postalarını girin (virgülle ayırarak)
       footer: Kullanıcıya nasıl kaydolacağıyla ilgili talimatları içeren bir e-posta alacak
@@ -374,25 +374,25 @@ tr:
     login:
       or: veya
       with: "%{provider} ile oturum açın"
-      forgot_password: "Şifreni mi Unuttun ?"
+      forgot_password: "Şifreni mi Unuttun?"
     rename_recording:
     remove_shared:
-      title: "Bu Sınıfı, sınıf listenizden kaldırmak istediğinizden emin misiniz?"
+      title: "Bu sınıfı, sınıf listenizden kaldırmak istediğinizden emin misiniz?"
       delete: "Eminim, bu sınıfı kaldır."
       warning: Bu sınıfa artık <b>erişemeyeceksiniz</b>.
     room_settings:
       title: Sınıf Ayarları
-      update: Güncelleme Sınıfı
-      client: İstemci türünü seçin
+      update: Sınıfı Güncelle
+      client: Kullanıcı türünü seçin
       join_moderator: Tüm kullanıcılar moderatör olarak katılır
       mute: Kullanıcıları katıldıklarında sessize al
       require_approval: Katılmadan önce moderatör onayı iste
-      start: Kullanıcılardan herhangi birini bu görüşmeyi başlatabilsin
+      start: Kullanıcılardan herhangi biri bu görüşmeyi başlatabilsin
       footer_text: Sınıfınızın ayarları her zaman yapılabilir.
     rename_room:
       name_placeholder: Yeni bir sınıf adı girin ...
     share_access:
-      footer: "Bir sınıfı bir kullanıcıyla paylaşmak, sınıfı başlatmalarına ve sınıfın kayıtlarını görüntülemelerine olanak tanır"
+      footer: Bir sınıfı bir kullanıcıyla paylaşmak, sınıfı başlatmalarına ve sınıfın kayıtlarını görüntülemelerine olanak tanır
       list: Paylaşımla Bağlantılı
       title: Sınıf Erişimini Paylaş
       save: Değişikliği Kaydet
@@ -449,12 +449,12 @@ tr:
       notes: Notlar
       podcast: Dijital ses dosyası
       presentation: Sunum
-      statistics: İstatistik
+      statistics: İstatistikler
       video: Video
   registration:
     approval:
       fail: Hesabınız henüz onaylanmadı. Kaydolduğunuzdan bu yana birden fazla gün geçtiyse lütfen yöneticinize başvurun.
-      signup: Hesabınız başarılı bir şekilde oluşturulmuştur. Onay için bir yöneticiye gönderildi.
+      signup: Hesabınız başarılı bir şekilde oluşturulmuştur. Onay için yöneticiye gönderildi.
     banned:
       fail: "Bu uygulamaya erişiminiz yok. Bunun bir hata olduğunu düşünüyorsanız, lütfen yöneticinize başvurun." 
     deprecated:
@@ -486,26 +486,26 @@ tr:
     create_room_error: Sınıf oluşturulurken bir hata oluştu
     create_room_success: Sınıf başarıyla oluşturuldu
     delete:
-      home_room: Kullanıcının Ana Sınıfı silinemiyor
+      home_room: Kullanıcının tanımladığı sınıf silinemiyor
       success: Sınıf başarıyla silindi
       fail: "Sınıf silinemedi (%{error})"
     enter_the_access_code: Sınıfın erişim kodunu girin
-    invalid_provider: Geçersiz bir Link girdiniz. Lütfen Linki kontrol edip tekrar deneyin.
-    invited: Katılıma davet edildin
-    invite_participants: Katılımcıları Davet Et
+    invalid_provider: Geçersiz bir bağlantı girdiniz. Lütfen adresi kontrol edip tekrar deneyin.
+    invited: Bir ders için davet edildin
+    invite_participants: Katılımcıları davet et
     join: Katıl
     last_session: "%{session} üzerindeki son oturum"
     login: Giriş
     owner: Sahibi
     owner_banned: Bu sınıf şu anda kullanılamıyor
     no_room:
-      description: Katılmak istediğiniz sınıfın sınıf Linkini veya sınıf kimliğini girin.
+      description: Katılmak istediğiniz sınıfın sınıf adresini veya sınıf kimliğini girin.
       edit_profile: Kullanıcı Profili düzenle
       go_to: Sınıfa Git
-      invalid_room_uid: Girdiğiniz Sınıf Linki / kullanıcı kimliği geçersizdi.
-      placeholder: Sınıf Linki / kullanıcı kimliği
+      invalid_room_uid: Girdiğiniz sınıfın adresi / kullanıcı kimliği geçersizdi.
+      placeholder: Sınıf adresi / kullanıcı kimliği
       no_recent_rooms: Yeni katıldığınız sınıf yok
-      recent_rooms: En Son Katılınan Sınıfa Git
+      recent_rooms: En Son Girilen Sınıfa Git
       title: Sınıfa Katılın
     no_sessions: Bu sınıfta henüz oturum yok!
     recordings: Sınıf Kayıtları
@@ -532,14 +532,14 @@ tr:
       language: Dil
       provider: Sağlayıcı
       image: Resim
-      image_url: Profil Resmi Linki
-      roles: Kullanıcı Yetkisi
-      subtitle: Hesap Bilgilerinizi güncelleyin
+      image_url: Profil resmi adresi
+      roles: Kullanıcı yetkisi
+      subtitle: Hesap bilgilerinizi güncelleyin
       title: Hesap bilgisi
     delete:
       button: "Evet, hesabımı silmek istiyorum."
       disclaimer: "Eğer hesabınızı silmeyi seçerseniz, hesabınız <b>KURTARILAMAZ</b> olacaktır. Ayarlar, sınıflar ve kayıt dahil olmak üzere hesabınızla ilgili tüm bilgiler kaldırılacaktır."
-      subtitle: Hesabınızı Kalıcı Olarak Silin
+      subtitle: Hesabınızı Kalıcı Olarak Silin!
       title: Hesabı sil
     password:
       confirmation: Yeni şifre onayı
@@ -555,19 +555,19 @@ tr:
     title: Kayıt Ol
     with: " %{provider} ile kaydolun"
   terms:
-    accept: "MagistumLive kabul ediyorum"
+    accept: "Magistum Live'ı kullanmayı kabul ediyorum"
     accept_existing: Şartları ve koşulları kabul ediyorum
     title: Şartlar ve Koşullar
   test_install: >
-    Bu dağıtım önceden yapılandırılmış bir test sunucusu kullanıyor, bunu kendi sunucunuzla değiştirmeniz gerekir. Ayrıntılar için MagistumLive sayfasına bakın.
+    Ayrıntılar için Magistum Live yöneticisiyle iletişime geçin.
   update: Güncelleme
   verify:
     accept: Doğrulayın
     activated: Hesap doğrulandı!
     already_verified: Hesap daha önce doğrulandı
-    invalid: Geçersiz doğrulama linki
-    not_verified: Hesabınız henüz doğrulanmadı.
+    invalid: Geçersiz doğrulama adresi
+    not_verified: Hesabınız henüz doğrulanmadı
     resend: Doğrulama e-postasını tekrar gönder
-    signin: Hesabınıza erişmek için lütfen oturum açın.
+    signin: Hesabınıza erişmek için lütfen oturum açın
     title: Eposta adresinizi doğrulayın
     verification: Doğrulama
