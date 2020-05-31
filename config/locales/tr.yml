@@ -210,9 +210,9 @@ tr:
       contact_admin: "Yönetici değilseniz, lütfen bir tane ile iletişime geçin."
       continue: 1.0 sürümü kullanmaya devam etmek istiyorum.
       notice: >
-        Sistem bir veritabanı taşıma hatasıyla karşılaştı.<br>Bunun nedeni Greenlight 2.0 sürümünü kullanmadığınızdan olabilir. 2.0 sürümüne nasıl yükselteceğimi göster!
+        Sistem bir veritabanı taşıma hatasıyla karşılaştı.<br>Bunun nedeni MagistumLive 2.0 sürümünü kullanmadığınızdan olabilir. 2.0 sürümüne nasıl yükselteceğimi göster!
       upgrade: "2,0 Sürümüne nasıl yükselteceğimi göster!"
-      version: "Greenlight'ın yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
+      version: "MagistumLive'ın yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
     messages:
       blank: Boş bırakılamaz
       too_short: Çok kısa
@@ -245,13 +245,13 @@ tr:
     designs: Özel Tasarımlar
     authentication: Kullanıcı Kimlik Doğrulaması
   footer:
-    powered_by: "%{href} tarafından desteklenmektedir."
+    powered_by: "MagistumLive tarafından desteklenmektedir."
   forgot_password:
     subtitle: Şifremi Unuttum
     email: E-Posta
     submit: Konu
   go_back: Geri Git
-  greenlight: Sanal Sınıf
+  greenlight: MagistumLive
   header:
     all_recordings: Tüm Kayıtlar
     dropdown:
@@ -259,7 +259,7 @@ tr:
       help: "Yardıma mı ihtiyacınız var?"
       home: Ana Sayfa
       settings: Profil
-      signout: Kayıt Ol
+      signout: Çıkış Yap
   home_room: Ana Sınıf
   info_update_success: Bilgiler başarıyla güncellendi.
   invalid_credentials: Girdiğiniz e-posta ve şifre kayıtlarımızla eşleşmedi. Tekrar deneyin veya şifrenizi sıfırlamak için Şifremi Unuttum'u tıklayın.
@@ -275,11 +275,11 @@ tr:
     search:
       start: Aramaya başla ...
   landing:
-    about: "%{href}, Sanal Okul açık kaynaklı web konferans sunucunuz için basit bir kullanıcı arabirimidir. Oturumları düzenlemek için kendi sınıflarınız oluşturabilir veya kısa ve rahat bir bağlantı kullanarak diğer sınıflara katılabilirsiniz."
-    welcome: Sanal Okulumuza hoş geldiniz.
+    about: "Magistum Live ile canlı derslerinizi, süre sınırı olmadan, kesintisiz ve kolayca yapın!<br><br>Magistum üzerindeki sınıf ve gruplarınızı kullanarak derslerinizi veya etütlerinizi gerçekleştirin; kaydedip yüklemeye gerek kalmadan öğrenciler anında ve sonrasında izleyebilsin.<br><br>Yoklamalar ve kullanım istatistikleri otomatik olarak raporlansın; Magistum uygulaması üzerinden anında veliye bilgi gitsin, siz yorulmayın."
+    welcome: Magistum Live’a Hoş Geldiniz.
     video: Sistemi kullanma ile ilgili eğitici videomuzu izleyebilirsiniz.
     upgrade: Bana 2.0 sürümüne nasıl yükseltileceğini göster!
-    version: "Sanal Sınıf Sisteminin yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
+    version: "MagistumLive Sisteminin yeni bir sürümünü çıkardık, ancak veritabanınız uyumlu değil."
   language_default: Varsayılan (programın orjinal dili)
   ldap_error: LDAP sunucusuna bağlanılamıyor. Lütfen env dosyasındaki LDAP yapılandırmanızı kontrol edin ve sunucunuzun çalıştığından emin olun.
   login: Oturum Aç
@@ -291,10 +291,10 @@ tr:
         signin: Kişisel sınıflarınıza erişmek için aşağıdaki butonu tıklayın ve oturum açın.
         signin_link: Oturum Aç
         signup:
-          info: Sanal Sınıfı kullanmak için yeni bir kullanıcı kaydoldu.
-          more-info: Bu kullanıcının Sanal Sınıfa erişmesine izin vermek için hesabını kuruluş ayarlarında onaylamanız gerekir.
+          info: MagistumLive'ı kullanmak için yeni bir kullanıcı kaydoldu.
+          more-info: Bu kullanıcının MagistumLive'a erişmesine izin vermek için hesabını kuruluş ayarlarında onaylamanız gerekir.
           admins_link: Sistem Sayfasını ziyaret edin
-          subject: Yeni Sanal Sınıf Kullanıcı Kaydı
+          subject: Yeni MagistumLive Kullanıcı Kaydı
           username: "Kullanıcı %{name} adıyla ve %{email} e-postası ile kaydoldu."
         subject: Hesap Onaylandı
         username: "Kullanıcı adınız %{email}."
@@ -308,9 +308,9 @@ tr:
         signup_info: E-postanızı kullanarak kaydolmak için aşağıdaki butona tıklayın ve adımları izleyin.
         signup_link: Kayıt Ol
         signup:
-          info: Davet edilen bir kullanıcı Sanal Sınıfı kullanmak için kaydoldu.
+          info: Davet edilen bir kullanıcı MagistumLive'ı kullanmak için kaydoldu.
           admins_link: Sistem sayfasını ziyaret edin
-          subject: Yeni Sanal Sınıf Kullanıcı Kaydı
+          subject: Yeni MagistumLive Kullanıcı Kaydı
           username: "Kullanıcı %{name} adıyla ve %{email} e-postası ile kaydoldu."
         subject: Sanal Okul'a davet
         username: "Kullanıcı adınız %{email}."
@@ -555,11 +555,11 @@ tr:
     title: Kayıt Ol
     with: " %{provider} ile kaydolun"
   terms:
-    accept: "%{href} kabul ediyorum"
+    accept: "MagistumLive kabul ediyorum"
     accept_existing: Şartları ve koşulları kabul ediyorum
     title: Şartlar ve Koşullar
   test_install: >
-    Bu dağıtım önceden yapılandırılmış bir test sunucusu kullanıyor, bunu kendi sunucunuzla değiştirmeniz gerekir. Ayrıntılar için %{href} sayfasına bakın.
+    Bu dağıtım önceden yapılandırılmış bir test sunucusu kullanıyor, bunu kendi sunucunuzla değiştirmeniz gerekir. Ayrıntılar için MagistumLive sayfasına bakın.
   update: Güncelleme
   verify:
     accept: Doğrulayın
