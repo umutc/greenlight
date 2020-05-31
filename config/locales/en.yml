@@ -145,11 +145,11 @@ en:
       mute:
         info: Automatically mutes the user when they join the MagistumLive meeting
       require_moderator:
-        info: Prompts the moderator of the MagistumLive meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
+        info: Prompts the moderator of the Magistum Live meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
       allow_any:
         info: Allows any user to start the meeting at any time. By default, only the room owner can start the meeting.
       all_moderator:
-        info: Gives all users moderator privileges in MagistumLive when they join the meeting.
+        info: Gives all users moderator privileges in Magistum Live when they join the meeting.
       options:
         disabled: Disabled
         enabled: Always Enabled
@@ -575,7 +575,7 @@ en:
     title: Sign up
     with: Sign up with %{provider}
   terms:
-    accept: I accept the MagistumLive
+    accept: I accept the Magistum Live
     accept_existing: I accept the terms and conditions
     title: Terms and Conditions
   test_install: >
